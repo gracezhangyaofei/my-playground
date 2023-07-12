@@ -8,6 +8,11 @@ git commit --fixup=OLDCOMMIT
 git rebase --interactive --autosquash OLDCOMMIT^
 ```
 
+# How to remove last committed data
+```
+git reset HEAD~
+```
+
 # How to remove last pushed data
 ```
 git rebase -i
